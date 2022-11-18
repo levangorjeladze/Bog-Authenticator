@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2A0AA63291FFC3C00859EFF /* AuthenticatorDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0AA62291FFC3C00859EFF /* AuthenticatorDemoApp.swift */; };
+		D2A0AA65291FFC3C00859EFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0AA64291FFC3C00859EFF /* ContentView.swift */; };
+		D2A0AA67291FFC3D00859EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A0AA66291FFC3D00859EFF /* Assets.xcassets */; };
+		D2A0AA6A291FFC3D00859EFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A0AA69291FFC3D00859EFF /* Preview Assets.xcassets */; };
+		D2CA107629202FF3001BBBAC /* CredentialsLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CA107529202FF3001BBBAC /* CredentialsLoginView.swift */; };
+		D2E34F2A291FFE8C0027520D /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E34F29291FFE8C0027520D /* Title.swift */; };
+		D2E34F2C291FFFB40027520D /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E34F2B291FFFB40027520D /* PrimaryButton.swift */; };
+		D2E34F2F292002400027520D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E34F2E292002400027520D /* LoginView.swift */; };
+		D2E34F31292011600027520D /*  AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E34F30292011600027520D /*  AuthenticationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2A0AA5F291FFC3C00859EFF /* Bog Authenticator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bog Authenticator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A0AA62291FFC3C00859EFF /* AuthenticatorDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorDemoApp.swift; sourceTree = "<group>"; };
+		D2A0AA64291FFC3C00859EFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2A0AA66291FFC3D00859EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2A0AA69291FFC3D00859EFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2CA107529202FF3001BBBAC /* CredentialsLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsLoginView.swift; sourceTree = "<group>"; };
+		D2E34F29291FFE8C0027520D /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		D2E34F2B291FFFB40027520D /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		D2E34F2E292002400027520D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D2E34F30292011600027520D /*  AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " AuthenticationManager.swift"; sourceTree = "<group>"; };
+		D2E34F32292012950027520D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2A0AA5C291FFC3C00859EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2A0AA56291FFC3C00859EFF = {
+			isa = PBXGroup;
+			children = (
+				D2A0AA61291FFC3C00859EFF /* AuthenticatorDemo */,
+				D2A0AA60291FFC3C00859EFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2A0AA60291FFC3C00859EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A0AA5F291FFC3C00859EFF /* Bog Authenticator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2A0AA61291FFC3C00859EFF /* AuthenticatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D2A0AA62291FFC3C00859EFF /* AuthenticatorDemoApp.swift */,
+				D2E34F30292011600027520D /*  AuthenticationManager.swift */,
+				D2E34F2D292002180027520D /* Views */,
+				D2E34F28291FFE5C0027520D /* Components */,
+				D2A0AA66291FFC3D00859EFF /* Assets.xcassets */,
+				D2A0AA68291FFC3D00859EFF /* Preview Content */,
+			);
+			path = AuthenticatorDemo;
+			sourceTree = "<group>";
+		};
+		D2A0AA68291FFC3D00859EFF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D2E34F32292012950027520D /* Info.plist */,
+				D2A0AA69291FFC3D00859EFF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2E34F28291FFE5C0027520D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D2E34F29291FFE8C0027520D /* Title.swift */,
+				D2E34F2B291FFFB40027520D /* PrimaryButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D2E34F2D292002180027520D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D2A0AA64291FFC3C00859EFF /* ContentView.swift */,
+				D2E34F2E292002400027520D /* LoginView.swift */,
+				D2CA107529202FF3001BBBAC /* CredentialsLoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2A0AA5E291FFC3C00859EFF /* Bog Authenticator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A0AA6D291FFC3D00859EFF /* Build configuration list for PBXNativeTarget "Bog Authenticator" */;
+			buildPhases = (
+				D2A0AA5B291FFC3C00859EFF /* Sources */,
+				D2A0AA5C291FFC3C00859EFF /* Frameworks */,
+				D2A0AA5D291FFC3C00859EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bog Authenticator";
+			productName = AuthenticatorDemo;
+			productReference = D2A0AA5F291FFC3C00859EFF /* Bog Authenticator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2A0AA57291FFC3C00859EFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D2A0AA5E291FFC3C00859EFF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = D2A0AA5A291FFC3C00859EFF /* Build configuration list for PBXProject "Bog Authenticator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2A0AA56291FFC3C00859EFF;
+			productRefGroup = D2A0AA60291FFC3C00859EFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2A0AA5E291FFC3C00859EFF /* Bog Authenticator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2A0AA5D291FFC3C00859EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A0AA6A291FFC3D00859EFF /* Preview Assets.xcassets in Resources */,
+				D2A0AA67291FFC3D00859EFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2A0AA5B291FFC3C00859EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A0AA65291FFC3C00859EFF /* ContentView.swift in Sources */,
+				D2E34F2A291FFE8C0027520D /* Title.swift in Sources */,
+				D2CA107629202FF3001BBBAC /* CredentialsLoginView.swift in Sources */,
+				D2E34F31292011600027520D /*  AuthenticationManager.swift in Sources */,
+				D2E34F2C291FFFB40027520D /* PrimaryButton.swift in Sources */,
+				D2E34F2F292002400027520D /* LoginView.swift in Sources */,
+				D2A0AA63291FFC3C00859EFF /* AuthenticatorDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D2A0AA6B291FFC3D00859EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Bog Authenticator";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2A0AA6C291FFC3D00859EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "Bog Authenticator";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2A0AA6E291FFC3D00859EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AuthenticatorDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 7NM3UG47RA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuthenticatorDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bog Authenticator";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow FaceID to log into the app";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Levan-lnc.AuthenticatorDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2A0AA6F291FFC3D00859EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AuthenticatorDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 7NM3UG47RA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuthenticatorDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bog Authenticator";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow FaceID to log into the app";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Levan-lnc.AuthenticatorDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2A0AA5A291FFC3C00859EFF /* Build configuration list for PBXProject "Bog Authenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A0AA6B291FFC3D00859EFF /* Debug */,
+				D2A0AA6C291FFC3D00859EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A0AA6D291FFC3D00859EFF /* Build configuration list for PBXNativeTarget "Bog Authenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A0AA6E291FFC3D00859EFF /* Debug */,
+				D2A0AA6F291FFC3D00859EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2A0AA57291FFC3C00859EFF /* Project object */;
+}
